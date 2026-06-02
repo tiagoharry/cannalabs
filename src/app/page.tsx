@@ -7,7 +7,7 @@ export default function Home() {
     <div className="flex flex-col flex-1 items-center justify-center bg-white font-sans">
       <Header />
       <section className="relative w-full h-[500px]">
-        <Image src="/principal.png"
+        <Image src="/images/principal.png"
           fill
           priority
           className="object-cover absolute max-md:hidden" alt="Principal" />

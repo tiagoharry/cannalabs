@@ -1,5 +1,6 @@
 import Image from "next/image";
 import H1 from "@/app/components/h1/page";
+import Link from "next/link";
 
 export default function Banner() {
   return (
@@ -15,9 +16,12 @@ export default function Banner() {
             Promovemos o acesso à informação, pesquisa e tratamentos
             à base de Cannabis para uma vida com mais saúde e dignidade.
           </p>
-          <button className="mt-8 bg-green-900 text-white px-8 py-6 rounded-xl w-fit hover:bg-green-800 transition cursor-pointer">
-            Saiba mais
-          </button>
+          <Link href="/quemsomos">
+            <button className="mt-8 bg-green-900 text-white px-8 py-6 rounded-xl w-fit hover:bg-green-800 transition cursor-pointer">
+              Saiba mais
+            </button>
+          </Link>
+
         </div>
         <div className="relative min-h-100">
         </div>

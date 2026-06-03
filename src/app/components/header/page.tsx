@@ -6,9 +6,13 @@ import React from "react";
 import LinkComponent from "../Link/page";
 import HamburgerButton from "../hamburguerbutton/page";
 import Link from "next/link";
+import { useState } from "react";
+
 
 export default function Header() {
   const [navbar, setNavbar] = React.useState(false);
+  const [active, setActive] = useState("");
+
 
   return (
     <div className="bg-white w-full h-32 flex items-center justify-between max-lg:justify-around px-20 py-20">
@@ -32,13 +36,16 @@ export default function Header() {
         <div className="">
           <div className="text-green-900 text-m flex gap-18 items-center max-lg:flex-col max-lg:text-center max-lg:gap-8 max-lg:bg-white max-lg:shadow max-lg:rounded max-lg:py-32 max-lg:px-24 ">
             <Link href="/quemsomos">
-              <LinkComponent text="Quem somos" />
+              <LinkComponent text="Quem somos" active={active === "quem"}
+                onClick={() => setActive("quem")} />
             </Link>
             <Link href="/trabalho">
-              <LinkComponent text="Trabalho que realizamos" />
+              <LinkComponent text="Trabalho que realizamos" active={active === "trabalhamos"}
+                onClick={() => setActive("trabalhamos")} />
             </Link>
             <Link href="/participar">
-              <LinkComponent text="Participar da associação" />
+              <LinkComponent text="Participar da associação" active={active === "doar"}
+                onClick={() => setActive("doar")} />
             </Link>
             <Link href="/doar">
               <Button text="Doar" />

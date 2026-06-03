@@ -13,7 +13,7 @@ export default function Home() {
             <p className="text-gray-700 text-center w-77">
               Conheça nossa história, missão e os valores que nos movem.
             </p>
-            <Link href="#" className="text-green-900 font-medium hover:underline flex items-center gap-1">
+            <Link href="#" className="text-green-900 font-medium hover:text-yellow-600 flex items-center gap-1">
               Saiba mais
               <span className="material-symbols-outlined">
                 arrow_right_alt
@@ -33,7 +33,7 @@ export default function Home() {
             <p className="text-gray-700 text-center w-77">
               Nossas ações, projetos e iniciativas pela Cannabis medicinal.
             </p>
-            <Link href="#" className="text-green-900 font-medium hover:underline flex items-center gap-1">
+            <Link href="#" className="text-green-900 font-medium hover:text-yellow-600 flex items-center gap-1">
               Saiba mais
               <span className="material-symbols-outlined">
                 arrow_right_alt
@@ -53,7 +53,7 @@ export default function Home() {
             <p className="text-gray-700 text-center w-77">
               Associe-se e faça parte de uma rede que transforma.
             </p>
-            <Link href="#" className="text-green-900 font-medium hover:underline flex items-center gap-1">
+            <Link href="#" className="text-green-900 font-medium hover:text-yellow-600 flex items-center gap-1">
               Quero participar
               <span className="material-symbols-outlined">
                 arrow_right_alt
@@ -73,7 +73,7 @@ export default function Home() {
             <p className="text-gray-700 text-center w-77">
               Sua contribuição ajuda a transformar vidas. Doe e faça parte dessa causa.
             </p>
-            <Link href="#" className="text-green-900 font-medium hover:underline flex items-center gap-1">
+            <Link href="#" className="text-green-900 font-medium hover:text-yellow-600 flex items-center gap-1">
               Quero doar
               <span className="material-symbols-outlined">
                 arrow_right_alt

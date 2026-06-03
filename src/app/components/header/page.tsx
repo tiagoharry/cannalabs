@@ -27,7 +27,7 @@ export default function Header() {
         max-lg:z-40
         max-lg:duration-500
         max-lg:ease-in-out`
-        }
+      }
       >
         <div className="">
           <div className="text-green-900 text-m flex gap-18 items-center max-lg:flex-col max-lg:text-center max-lg:gap-8 max-lg:bg-white max-lg:shadow max-lg:rounded max-lg:py-32 max-lg:px-24 ">
@@ -40,7 +40,9 @@ export default function Header() {
             <Link href="/participar">
               <LinkComponent text="Participar da associação" />
             </Link>
-            <Button text="Doar" onClick={() => alert("Doar")} />
+            <Link href="/doar">
+              <Button text="Doar" />
+            </Link>
           </div>
         </div>
       </div>

@@ -2,8 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-white font-sans">
-       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 py-8 px-16">
+     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 py-8 px-16">
         <div className="flex flex-col items-center gap-4 text-center">
 
           <div className="border-[#13532D] rounded-full border-2 bg-transparent flex items-center justify-center w-22 h-22">
@@ -14,7 +13,7 @@ export default function Home() {
             <p className="text-gray-700 text-center w-77">
               Conheça nossa história, missão e os valores que nos movem.
             </p>
-            <Link href="/quemsomos" className="text-green-900 font-medium hover:underline flex items-center gap-1">
+            <Link href="#" className="text-green-900 font-medium hover:underline flex items-center gap-1">
               Saiba mais
               <span className="material-symbols-outlined">
                 arrow_right_alt
@@ -85,6 +84,5 @@ export default function Home() {
         </div>
 
       </div>
-    </div>
-  );
+  )
 }

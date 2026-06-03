@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Header from "./components/header/page";
 import Link from "next/link";
+import H1 from "./components/h1/page";
 
 export default function Home() {
   return (
@@ -11,13 +12,11 @@ export default function Home() {
           fill
           priority
           className="object-cover absolute max-md:hidden" alt="Principal" />
-        <div className="absolute grid md:grid-cols-2 min-h-[500px">
+        <div className="absolute grid md:grid-cols-2 min-h-[500px]">
           <div className="flex flex-col justify-center px-8 md:px-20 py-12">
-            <h1 className="text-4xl md:text-3xl font-bold text-green-900 leading-tight">
-              ASSOCIAÇÃO DE ESTUDO E
-              <br />
-              PROMOÇÃO LABORATORIAL
-            </h1>
+            <H1 text="ASSOCIAÇÃO DE ESTUDO E" />
+            <H1 text="PROMOÇÃO LABORATORIAL" />
+          
             <div className="w-20 h-1 bg-yellow-600 my-6"></div>
             <p className="text-lg text-gray-700 max-w-xl">
               Promovemos o acesso à informação, pesquisa e tratamentos

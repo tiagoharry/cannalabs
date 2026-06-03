@@ -34,7 +34,7 @@ export default function Header() {
             <Link href="/quemsomos">
               <LinkComponent text="Quem somos" />
             </Link>
-            <Link href="/trabalhos">
+            <Link href="/trabalho">
               <LinkComponent text="Trabalho que realizamos" />
             </Link>
             <Link href="/participar">

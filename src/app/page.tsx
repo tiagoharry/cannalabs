@@ -34,7 +34,7 @@ export default function Home() {
             <p className="text-gray-700 text-center w-77">
               Nossas ações, projetos e iniciativas pela Cannabis medicinal.
             </p>
-            <Link href="#" className="text-green-900 font-medium hover:underline flex items-center gap-1">
+            <Link href="/trabalho" className="text-green-900 font-medium hover:underline flex items-center gap-1">
               Saiba mais
               <span className="material-symbols-outlined">
                 arrow_right_alt

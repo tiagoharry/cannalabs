@@ -5,10 +5,7 @@ export default function QuemSomos() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-10 bg-white font-sans px-20 py-8">
       <div className="">
-        <div className="flex flex-col items-start">
-          <H1 text="QUEM SOMOS" />
-          <div className="w-20 h-1 bg-yellow-600 my-3"></div>
-        </div>
+        <H1 text="QUEM SOMOS" />
         <div className="flex flex-col flex-1 gap-2">
           <div className="text-gray-700 text-[15px] flex flex-col gap-2">
             <p>
@@ -47,7 +44,6 @@ export default function QuemSomos() {
             </p>
           </div>
         </div>
-
 
       </div>
     </div>

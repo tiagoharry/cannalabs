@@ -1,6 +1,7 @@
 import Link from "next/link";
 import H1 from "../components/h1/page";
 import Image from "next/image";
+import H2 from "../components/h2/page";
 
 export default function Doar() {
   return (
@@ -61,7 +62,7 @@ export default function Doar() {
 
       <div className="bg-green-50 p-8 rounded-xl mt-3 flex gap-10  max-md:flex-col max-md:items-center max-md:text-center max-md:gap-4">
         <div className="flex flex-col gap-4">
-          <H1 text="FAÇA SUA DOAÇÃO" />
+          <H2 text="FAÇA SUA DOAÇÃO" />
           <p className="text-gray-700 max-w-77 text-[15px]">
             Qualquer contribuição faz a diferença!
             Escolha a forma que for mais conveniente para você e ajude a manter nosso trabalho.
@@ -75,7 +76,7 @@ export default function Doar() {
         <div className="h-80 w-1 bg-gray-100 my-3 max-md:hidden"></div>
 
         <div className="flex flex-col gap-4 max-md:mt-6">
-          <H1 text="OUTRAS FORMAS DE CONTRIBUIR" />
+          <H2 text="OUTRAS FORMAS DE CONTRIBUIR" />
           <p className="text-gray-700 max-w-77 text-[15px]">
             Você também pode realizar sua doação diretamente por transferência bancária.
           </p>
@@ -112,7 +113,7 @@ export default function Doar() {
           <span className="material-symbols-outlined" style={{ fontSize: '60px', color: '#13532D', display: 'inline-block', fontVariationSettings: "'wght' 120" }}>verified_user</span>
         </div>
         <div className="">
-          <H1 text="TRANSPARÊNCIA E COMPROMISSO" />
+          <H2 text="TRANSPARÊNCIA E COMPROMISSO" />
           <div className="text-green-900 max-w-160 text-[15px]">
             <p>
               Todas as doações recebidas são utilizadas com responsabilidade e transparência para o desenvolvimento de nossas atividades e projetos.

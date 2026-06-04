@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import H2 from "../components/h2/page";
 
 export default function Participar() {
   const [file, setFile] = useState<File | null>(null);
@@ -27,8 +28,9 @@ export default function Participar() {
   }
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-10 bg-white font-sans px-20 py-8">
-      <form onSubmit={handleSubmit}>
+    <div className="flex flex-col items-center md:grid-cols-2 gap-10 bg-white font-sans px-20 py-8">
+      <H2 text="Participar da associação" />
+      <form onSubmit={handleSubmit} className="max-w-xl flex flex-col gap-2">
         <input
           className=" w-full px-4 py-2 border border-gray-300 rounded-lg text-gray-800  placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500"
           type="text" name="name" placeholder="Nome" required />

@@ -67,7 +67,7 @@ export default function Doar() {
             Qualquer contribuição faz a diferença!
             Escolha a forma que for mais conveniente para você e ajude a manter nosso trabalho.
           </p>
-          <Link href="/quemsomos">
+          <Link href="https://www.asaas.com/c/43ctz26msdvldtmx ">
             <button className="mt-8 bg-green-900 text-white px-8 py-4 rounded-xl w-full hover:bg-green-800 transition cursor-pointer">
               LINK DE DOAÇÃO
             </button>
@@ -96,7 +96,7 @@ export default function Doar() {
                   Conta:
                 </p>
                 <p>
-                  CNPJ / PIX:
+                  CNPJ / PIX: 66.891.134/0001-58 ou associacaocannalabspe@gmail.com
                 </p>
                 <p>
                   Favorecido: Cannalabs-PE

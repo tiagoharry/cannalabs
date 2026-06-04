@@ -37,7 +37,7 @@ export async function POST(req: Request) {
     await transporter.sendMail({
       from: process.env.SMTP_USER,
 
-      to: "tiago.chocosex@gmail.com",
+      to: process.env.SMTP_TO,
 
       subject: "Novo formulário",
 

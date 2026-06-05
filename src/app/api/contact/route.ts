@@ -23,21 +23,38 @@ export async function POST(req: Request) {
       };
     }
 
-    const transporter = nodemailer.createTransport({
-      host: process.env.SMTP_HOST,
-      port: 587,
-      secure: false,
+    const transporter =
+      nodemailer.createTransport({
+        host:
+          process.env.SMTP_HOST,
 
-      auth: {
-        user: process.env.SMTP_USER,
-        pass: process.env.SMTP_PASS,
-      },
-    });
+        port:
+          Number(
+            process.env.SMTP_PORT
+          ),
+
+        secure: false,
+
+        auth: {
+          user:
+            process.env.SMTP_USER,
+
+          pass:
+            process.env.SMTP_PASS,
+        },
+      });
 
     await transporter.sendMail({
-      from: process.env.SMTP_USER,
+      from:
+        `"Formulário Cannalabs"
+    <${process.env.SMTP_FROM}>`,
 
-      to: process.env.SMTP_TO,
+      to:
+        process.env.SMTP_TO,
+
+      replyTo:
+        email,
+
 
       subject: "Participar da associação",
 

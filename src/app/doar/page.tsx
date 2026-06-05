@@ -97,7 +97,7 @@ export default function Doar() {
                   Conta: 7344330-1
                 </p>
                 <p>
-                  CNPJ / PIX: 66.891.134/0001-58 ou associacaocannalabspe@gmail.com
+                  CNPJ / PIX: 66.891.134/0001-58 ou ac@cannalabspe.com.br
                 </p>
                 <p>
                   Favorecido: Cannalabs-PE

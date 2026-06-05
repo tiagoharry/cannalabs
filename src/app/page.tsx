@@ -54,7 +54,7 @@ export default function Home() {
             <p className="text-gray-700 text-center w-70">
               Associe-se e faça parte de uma rede que transforma.
             </p>
-            <Link href="#" className="text-green-900 font-medium flex items-center gap-1">
+            <Link href="/participar" className="text-green-900 font-medium flex items-center gap-1">
               Quero participar
               <span className="material-symbols-outlined">
                 arrow_right_alt

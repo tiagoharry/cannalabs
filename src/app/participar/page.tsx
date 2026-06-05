@@ -175,7 +175,7 @@ export default function Participar() {
 
   return (
     <div className="flex flex-col items-center gap-10 bg-white font-sans px-20 py-8 max-md:px-0">
-      <H2 text="Participar da associação" />
+      <H2 text="Seja um associado" />
       <form onSubmit={handleSubmit} className="max-w-xl flex flex-col gap-2">
         <label htmlFor="name" className="text-gray-700">
           Nome

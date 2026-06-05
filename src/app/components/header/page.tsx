@@ -44,7 +44,7 @@ export default function Header() {
                 onClick={() => {setActive("trabalhamos"); setNavbar(false);}} />
             </Link>
             <Link href="/participar">
-              <LinkComponent text="Participar da associação" active={active === "participar"}
+              <LinkComponent text="Seja um associado" active={active === "participar"}
                 onClick={() => {setActive("participar"); setNavbar(false);}} />
             </Link>
             <Link href="/doar" 

@@ -9,7 +9,7 @@ export default function HamburgerButton({ isOpen, setIsOpen }: HamburgerButtonPr
   return (
     <button
       onClick={() => setIsOpen(!isOpen)}
-      className="fixed flex h-10 w-10 flex-col items-center justify-center z-50"
+      className="absolute flex h-10 w-10 flex-col items-center justify-center z-50"
       aria-label="Menu"
     >
       <span

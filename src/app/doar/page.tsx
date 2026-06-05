@@ -60,7 +60,7 @@ export default function Doar() {
       </div>
 
 
-      <div className="bg-green-50 p-8 rounded-xl mt-3 flex gap-10  max-md:flex-col max-md:items-center max-md:text-center max-md:gap-4">
+      <div className="bg-green-50 p-8 rounded-xl mt-3 flex gap-10 max-md:flex-col max-md:items-center max-md:text-center max-md:gap-4">
         <div className="flex flex-col gap-4">
           <H2 text="FAÇA SUA DOAÇÃO" />
           <p className="text-gray-700 max-w-77 text-[15px]">
@@ -80,20 +80,20 @@ export default function Doar() {
           <p className="text-gray-700 max-w-77 text-[15px]">
             Você também pode realizar sua doação diretamente por transferência bancária.
           </p>
-          <div className="bg-white shadow-md shadow-gray-200 p-8 rounded-xl mt-3 flex gap-10 max-w-110 max-md:flex-col max-md:items-center max-md:text-center max-md:gap-4">
-            <div className="">
+          <div className="bg-white shadow-md shadow-gray-200 p-8 rounded-xl mt-3 max-w-110 max-md:flex-col max-md:items-center max-md:text-center max-md:gap-4">
+            <div className="flex flex-col gap-1">
               <p className="text-green-900 font-bold">
                 DADOS BANCÁRIOS
               </p>
-              <div className="text-green-900">
+              <div className="text-green-900 flex flex-col gap-1">
                 <p>
-                  Banco:
+                  Banco: 461 - Asaas I.P S.A
                 </p>
                 <p>
-                  Agência:
+                  Agência: 0001
                 </p>
                 <p>
-                  Conta:
+                  Conta: 7344330-1
                 </p>
                 <p>
                   CNPJ / PIX: 66.891.134/0001-58 ou associacaocannalabspe@gmail.com

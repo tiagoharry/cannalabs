@@ -10,11 +10,11 @@ export default function Home() {
             <span className="material-symbols-outlined" style={{ fontSize: '60px', color: '#13532D', display: 'inline-block', fontVariationSettings: "'wght' 120" }}>group</span>
           </div>
           <div className="flex flex-col items-center gap-2">
-            <h2 className="text-xl font-bold text-green-900">QUEM SOMOS</h2>
-            <p className="text-gray-700 text-center w-77">
+            <h2 className="text-lg font-bold text-green-900">QUEM SOMOS</h2>
+            <p className="text-gray-700 text-center w-70">
               Conheça nossa história, missão e os valores que nos movem.
             </p>
-            <Link href="/quemsomos" className="text-green-900 font-medium hover:underline flex items-center gap-1">
+            <Link href="/quemsomos" className="text-green-900 font-medium flex items-center gap-1">
               Saiba mais
               <span className="material-symbols-outlined">
                 arrow_right_alt
@@ -30,11 +30,11 @@ export default function Home() {
             <span className="material-symbols-outlined" style={{ fontSize: '60px', color: '#13532D', display: 'inline-block', fontVariationSettings: "'wght' 120" }}>biotech</span>
           </div>
           <div className="flex flex-col items-center gap-2">
-            <h2 className="text-xl font-bold text-green-900">TRABALHO QUE REALIZAMOS</h2>
-            <p className="text-gray-700 text-center w-77">
+            <h2 className="text-lg font-bold text-green-900">TRABALHO QUE REALIZAMOS</h2>
+            <p className="text-gray-700 text-center w-70">
               Nossas ações, projetos e iniciativas pela Cannabis medicinal.
             </p>
-            <Link href="/trabalho" className="text-green-900 font-medium hover:underline flex items-center gap-1">
+            <Link href="/trabalho" className="text-green-900 font-medium flex items-center gap-1">
               Saiba mais
               <span className="material-symbols-outlined">
                 arrow_right_alt
@@ -50,11 +50,11 @@ export default function Home() {
             <span className="material-symbols-outlined" style={{ fontSize: '60px', color: '#13532D', display: 'inline-block', fontVariationSettings: "'wght' 120" }}>groups</span>
           </div>
           <div className="flex flex-col items-center gap-2">
-            <h2 className="text-xl font-bold text-green-900">PARTICIPAR DA ASSOCIAÇÃO</h2>
-            <p className="text-gray-700 text-center w-77">
+            <h2 className="text-lg font-bold text-green-900">PARTICIPAR DA ASSOCIAÇÃO</h2>
+            <p className="text-gray-700 text-center w-70">
               Associe-se e faça parte de uma rede que transforma.
             </p>
-            <Link href="#" className="text-green-900 font-medium hover:underline flex items-center gap-1">
+            <Link href="#" className="text-green-900 font-medium flex items-center gap-1">
               Quero participar
               <span className="material-symbols-outlined">
                 arrow_right_alt
@@ -70,11 +70,11 @@ export default function Home() {
             <span className="material-symbols-outlined" style={{ fontSize: '60px', color: '#13532D', display: 'inline-block', fontVariationSettings: "'wght' 120" }}>volunteer_activism</span>
           </div>
           <div className="flex flex-col items-center gap-2">
-            <h2 className="text-xl font-bold text-green-900">Doar</h2>
-            <p className="text-gray-700 text-center w-77">
+            <h2 className="text-lg font-bold text-green-900">Doar</h2>
+            <p className="text-gray-700 text-center w-70">
               Sua contribuição ajuda a transformar vidas. Doe e faça parte dessa causa.
             </p>
-            <Link href="/doar" className="text-green-900 font-medium hover:underline flex items-center gap-1">
+            <Link href="/doar" className="text-green-900 font-medium flex items-center gap-1">
               Quero doar
               <span className="material-symbols-outlined">
                 arrow_right_alt

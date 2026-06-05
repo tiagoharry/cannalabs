@@ -39,7 +39,7 @@ export async function POST(req: Request) {
 
       to: process.env.SMTP_TO,
 
-      subject: "Novo formulário",
+      subject: "Participar da associação",
 
       html: `
         <h2>Novo contato</h2>

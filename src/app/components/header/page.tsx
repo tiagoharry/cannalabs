@@ -37,17 +37,19 @@ export default function Header() {
           <div className="text-green-900 text-m flex gap-18 items-center max-lg:flex-col max-lg:text-center max-lg:gap-8 max-lg:bg-white max-lg:shadow max-lg:rounded max-lg:py-32 max-lg:px-24 ">
             <Link href="/quemsomos">
               <LinkComponent text="Quem somos" active={active === "quem"}
-                onClick={() => setActive("quem")} />
+                onClick={() => {setActive("quem"); setNavbar(false);}} />
             </Link>
             <Link href="/trabalho">
               <LinkComponent text="Trabalho que realizamos" active={active === "trabalhamos"}
-                onClick={() => setActive("trabalhamos")} />
+                onClick={() => {setActive("trabalhamos"); setNavbar(false);}} />
             </Link>
             <Link href="/participar">
-              <LinkComponent text="Participar da associação" active={active === "doar"}
-                onClick={() => setActive("doar")} />
+              <LinkComponent text="Participar da associação" active={active === "participar"}
+                onClick={() => {setActive("participar"); setNavbar(false);}} />
             </Link>
-            <Link href="/doar">
+            <Link href="/doar" 
+             onClick={() => {setActive("doar"); setNavbar(false);}}
+            >
               <Button text="Doar" />
             </Link>
           </div>

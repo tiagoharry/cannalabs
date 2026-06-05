@@ -4,11 +4,10 @@ import Link from "next/link";
 
 export default function Banner() {
   return (
-    <section className="relative w-full h-[500px]">
+    <section className="relative w-full h-[500px] max-md:bg-linear-to-r from-[#fefdfd] to-[#f8f6f6]">
       <Image src="/images/banner.png"
         fill
-        priority
-        className="object-cover absolute max-md:hidden" alt="Principal" />
+        className="object-cover absolute max-md:hidden" alt="Três folhas da cannabis e ao lado um frasco de erlenmeyer boca estreita" />
       <div className="absolute grid md:grid-cols-2 min-h-[500px]">
         <div className="flex flex-col justify-center px-8 md:px-20 py-12">
           <H1 text="ASSOCIAÇÃO DE ESTUDO E PROMOÇÃO LABORATORIAL" />
@@ -23,10 +22,7 @@ export default function Banner() {
           </Link>
 
         </div>
-        <div className="relative min-h-100">
-        </div>
       </div>
     </section>
   )
 }
-

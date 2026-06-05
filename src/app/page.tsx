@@ -50,7 +50,7 @@ export default function Home() {
             <span className="material-symbols-outlined" style={{ fontSize: '60px', color: '#13532D', display: 'inline-block', fontVariationSettings: "'wght' 120" }}>groups</span>
           </div>
           <div className="flex flex-col items-center gap-2">
-            <h2 className="text-lg font-bold text-green-900">PARTICIPAR DA ASSOCIAÇÃO</h2>
+            <h2 className="text-lg font-bold text-green-900">SEJA UM ASSOCIADO</h2>
             <p className="text-gray-700 text-center w-70">
               Associe-se e faça parte de uma rede que transforma.
             </p>

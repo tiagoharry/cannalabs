@@ -67,7 +67,8 @@ export default function Doar() {
             Qualquer contribuição faz a diferença!
             Escolha a forma que for mais conveniente para você e ajude a manter nosso trabalho.
           </p>
-          <Link href="https://www.asaas.com/c/43ctz26msdvldtmx ">
+          <Link href="https://www.asaas.com/c/43ctz26msdvldtmx" target="_blank"
+            rel="noopener noreferrer">
             <button className="mt-8 bg-green-900 text-white px-8 py-4 rounded-xl w-full hover:bg-green-800 transition cursor-pointer">
               LINK DE DOAÇÃO
             </button>
@@ -127,11 +128,11 @@ export default function Doar() {
       <div className="text-center">
         <H1 text="OBRIGADO POR FAZER PARTE DESSA CAUSA!" />
         <div className="text-green-900 max-w-160 text-[15px]">
-            <p>
-             Juntos, podemos construir um futuro com mais saúde, conhecimento e esperança.
-            </p>
-          </div>
-          <Image src="/logo.png" alt="Logo Cannalabs" width={150} height={150} className="mx-auto mt-6" />
+          <p>
+            Juntos, podemos construir um futuro com mais saúde, conhecimento e esperança.
+          </p>
+        </div>
+        <Image src="/logo.png" alt="Logo Cannalabs" width={150} height={150} className="mx-auto mt-6" />
       </div>
     </div>
   )

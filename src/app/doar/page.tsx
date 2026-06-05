@@ -96,12 +96,15 @@ export default function Doar() {
                 <p>
                   Conta: 7344330-1
                 </p>
-                <p>
-                  CNPJ / PIX: 66.891.134/0001-58 ou ac@cannalabspe.com.br
-                </p>
+
                 <p>
                   Favorecido: Cannalabs-PE
                 </p>
+                <p className="font-bold">CHAVES PIX</p>
+                <p>
+                  CNPJ: 66.891.134/0001-58
+                </p>
+                <p>Email: sac@cannalabspe.com.br</p>
               </div>
             </div>
           </div>

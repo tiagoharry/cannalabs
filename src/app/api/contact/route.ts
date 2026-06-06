@@ -9,7 +9,6 @@ export async function POST(req: Request) {
     const cpf = formData.get("cpf") as string;
     const tel = formData.get("tel") as string;
     const date = formData.get("date") as string;
-
     const image = formData.get("image") as File | null;
 
     let attachment;
